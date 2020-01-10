@@ -1,0 +1,23 @@
+http://fritzing.org/projects/turret-control-for-diffraction-grating
+
+This phase of my project is still in prototype but I wanted to post up my results anyway because it's working and the code is working also.
+
+ 
+
+So build instructions are still what is on the breadboard and on hackaday.
+
+ 
+
+*The LM350 voltage regulator has improved ripple rejection, I am also providing another schematic I did on Design Spark for the voltage regulator that shows D1* discharges C1 if output shorted to ground (C1=10uf)
+
+ 
+
+Adjust the trimmer POT of the voltage regulator until it shows about 5vdc with the stepper motor running, @ 0.75 n/min you should be pulling about 0.24mA.
+
+ 
+
+This way I found the motor runs cooler if you heat sink the LM350 properly. I used a rather larger aluminum heat sink, it was the what I had on hand but a smaller one will do also, maybe around 30 x 30mm.
+
+ 
+
+*I've also included a picture of the CCD circuit driver for the TCD1304DG (chip) the is used as the detector for my spectrometer project at Hackaday.
